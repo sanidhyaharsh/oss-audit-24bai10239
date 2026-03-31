@@ -1,49 +1,64 @@
-Open Source Software Audit – Git
+OSS Audit Project – Git
 
 Student Details
 Name: Sanidhya Harsh  
-Roll Number: 24BAI10239
+Roll Number: 24BAI10239  
 
 Chosen Software
 Git – Distributed Version Control System
 
-Project Description
-This project analyzes Git as an open-source software system. It explores its origin, licensing, ethical implications, and role in the open-source ecosystem. Additionally, five shell scripts are developed to demonstrate practical Linux and automation skills.
+---
 
-Scripts Description
+Project Overview
+This project is an audit of Git, an open-source distributed version control system widely used in software development. The report explores its origin, licensing, ethical implications, and role in the open-source ecosystem. 
+
+Additionally, five shell scripts are implemented to demonstrate Linux and automation skills.
+
+---
+
+Shell Scripts Description
 
 Script 1 – System Identity Report
-Displays system information including kernel version, user, uptime, and OS details.
+Displays system information such as kernel version, OS, uptime, and user details.
 
 Script 2 – FOSS Package Inspector
-Checks if Git is installed and displays version, license, and description.
+Checks whether Git is installed and displays version and description.
 
 Script 3 – Disk and Permission Auditor
-Analyzes key Linux directories for size, permissions, and ownership.
+Analyzes important system directories and shows size, permissions, and ownership.
 
 Script 4 – Log File Analyzer
-Counts occurrences of keywords like "error" in log files.
+Reads a log file and counts occurrences of a keyword like "error".
 
 Script 5 – Open Source Manifesto Generator
-Generates a personalized open-source philosophy statement.
+Generates a personalized open-source philosophy statement based on user input.
 
-How to Run
+---
 
-1. Open terminal
-2. Navigate to project folder
-3. Give permission:
-   chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh
-4. Run scripts:
-   ./script1.sh
-   ./script2.sh
-   ./script3.sh
-   ./script4.sh /var/log/syslog error
-   ./script5.sh
+How to Run the Scripts
 
-Dependencies
-- Linux OS
+Step 1: Open Terminal
+Navigate to project directory:
+cd oss-audit-24bai10239
+
+Step 2: Give Permissions
+chmod +x script1.sh script2.sh script3.sh script4.sh script5.sh
+
+Step 3: Run Scripts
+./script1.sh  
+./script2.sh  
+./script3.sh  
+./script4.sh /var/log/syslog error  
+./script5.sh  
+
+---
+
+Requirements
+- Linux OS (Ubuntu recommended)
 - Bash shell
 - Git installed
 
+---
+
 Conclusion
-This project demonstrates both theoretical and practical understanding of open-source software through Git and Linux-based scripting.
+This project demonstrates both conceptual understanding and practical implementation of open-source software using Git and Linux shell scripting.
